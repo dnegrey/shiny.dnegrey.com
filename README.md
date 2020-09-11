@@ -2,6 +2,6 @@
 
 *Home page content for shiny.dnegrey.com*
 
-**version x.x.x**
+**version 0.1.0**
 
 ----------
