@@ -3,14 +3,14 @@ Row
 
 ### Major League Baseball Dashboard <span class="fa fa-baseball-ball"></span>
 
-<a href="https://www.r-project.org/" target=_blank>
-![R](www/mlb.png) \
+<a href="mlb-dashboard" target=_blank>
+![MLB Dashboard](www/app/mlb-dashboard.png) \
 </a>
 
 ### NFL Family Picks <span class="fa fa-football-ball"></span>
 
-<a href="https://www.r-project.org/" target=_blank>
-![R](www/screen.png) \
+<a href="nfl-family-picks" target=_blank>
+![NFL Family Picks](www/app/nfl-family-picks.png) \
 </a>
 
 ### {.noshow}
