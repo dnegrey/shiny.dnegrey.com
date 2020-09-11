@@ -1,0 +1,29 @@
+---
+title: "Dan Negrey | Shiny - Home"
+output:
+    flexdashboard::flex_dashboard:
+        vertical_layout: scroll
+        theme: bootstrap
+        orientation: rows
+        css: www/styles.css
+        logo: www/dan-icon.png
+        favicon: www/dan-icon.png
+        navbar:
+            - {icon: "fa-globe", href: "https://dnegrey.com", target: "_blank"}
+            - {icon: "fa-linkedin", href: "https://www.linkedin.com/in/dnegrey", target: "_blank"}
+            - {icon: "fa-github", href: "https://github.com/dnegrey", target: "_blank"}
+            - {icon: "fa-twitter", href: "https://twitter.com/negreydan", target: "_blank"}
+            - {icon: "fa-envelope", href: "mailto:dnegrey@gmail.com"}
+---
+
+Sidebar {.sidebar}
+==========
+
+```{r, child = "src/Rmd/sidebar.Rmd"}
+```
+
+Home {data-icon=fa-home}
+=========
+
+```{r, child = "src/Rmd/home.Rmd"}
+```
