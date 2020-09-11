@@ -1,0 +1,112 @@
+/*
+import Open Sans font from Google (closest to Verdana)
+*/
+
+@import "https://fonts.googleapis.com/css2?family=Open+Sans";
+
+/*
+global
+*/
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    background-color: #EAEAEA;
+}
+
+/*
+navbar
+*/
+
+.navbar {
+    background-color: #4E5D6C;
+    border-bottom: 1px solid #4E5D6C;
+}
+.navbar-logo {
+    height: 40px;
+    margin-top: 3px;
+}
+.navbar-brand {
+    font-size: 18px;
+    width: 180px;
+    margin-right: 26px;
+    white-space: nowrap;
+    overflow: hidden;
+}
+.navbar-inverse .navbar-brand,
+.navbar-inverse .navbar-brand:hover {
+    color: #FFFFFF;
+}
+.navbar-inverse .navbar-nav > li > a {
+    color: #ABB6C2;
+}
+.navbar-inverse .navbar-nav>.active>a,
+.navbar-inverse .navbar-nav>.active>a:focus {
+    background-color: #ABB6C2;
+    color: #000000;
+    color: rgba(0, 0, 0, 0.9);
+}
+
+/*
+sidebar
+*/
+
+#sidebar {
+    background-color: #2B3E50;
+    border-right: 1px solid #2B3E50;
+    color: #FFFFFF;
+    color: rgba(255, 255, 255, 0.5);
+}
+#sidebar .chart-title {
+    display: none;
+}
+#sidebar p:nth-child(1) img {
+    max-width: 100%;
+    border-radius: 3px;
+}
+@media screen and (max-width: 767px) {
+    #sidebar p:nth-child(1) {
+        display: none;
+    }
+}
+#chrome-statement {
+    font-size: small;
+}
+#chrome-C {
+    color: #4285F4;
+}
+#chrome-h {
+    color: #DB4437;
+}
+#chrome-r {
+    color: #F4B400;
+}
+#chrome-o {
+    color: #4285F4;
+}
+#chrome-m {
+    color: #0F9D58;
+}
+#chrome-e {
+    color: #DB4437;
+}
+#chrome-icon {
+    color: #F4B400;
+    margin-left: 5px;
+}
+
+/*
+home
+*/
+
+#home .chart-title {
+    font-weight: bold;
+}
+#home .chart-title .fa {
+    float: right;
+}
+#home img {
+    max-width: 100%;
+}
+.noshow {
+    visibility: hidden;
+}

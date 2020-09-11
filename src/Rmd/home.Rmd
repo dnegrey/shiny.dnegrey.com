@@ -1,0 +1,22 @@
+Row
+----------
+
+### Major League Baseball Dashboard <span class="fa fa-baseball-ball"></span>
+
+<a href="https://www.r-project.org/" target=_blank>
+![R](www/mlb.png) \
+</a>
+
+### NFL Family Picks <span class="fa fa-football-ball"></span>
+
+<a href="https://www.r-project.org/" target=_blank>
+![R](www/screen.png) \
+</a>
+
+### {.noshow}
+
+
+
+### {.noshow}
+
+
