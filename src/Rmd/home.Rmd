@@ -1,7 +1,7 @@
 Row
 ----------
 
-### Major League Baseball Dashboard <span class="fa fa-baseball-ball"></span>
+### MLB Dashboard <span class="fa fa-baseball-ball"></span>
 
 <a href="mlb-dashboard" target=_blank>
 ![MLB Dashboard](www/app/mlb-dashboard.png) \
