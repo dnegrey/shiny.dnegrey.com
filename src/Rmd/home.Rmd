@@ -13,9 +13,11 @@ Row
 ![NFL Family Picks](www/app/nfl-family-picks.png) \
 </a>
 
-### {.noshow}
+### Marine Vessels <span class="fa fa-ship"></span>
 
-
+<a href="marine-vessels" target=_blank>
+![Marine Vessels](www/app/marine-vessels.png) \
+</a>
 
 ### {.noshow}
 
