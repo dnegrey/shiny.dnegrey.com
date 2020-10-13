@@ -1,19 +1,19 @@
 Row
 ----------
 
-### MLB Dashboard <span class="fa fa-baseball-ball"></span>
+### MLB Dashboard <span class="fa fa-baseball-ball"></span> {.project-card}
 
 <a href="mlb-dashboard" target=_blank>
 ![MLB Dashboard](www/app/mlb-dashboard.png) \
 </a>
 
-### NFL Family Picks <span class="fa fa-football-ball"></span>
+### NFL Family Picks <span class="fa fa-football-ball"></span> {.project-card}
 
 <a href="nfl-family-picks" target=_blank>
 ![NFL Family Picks](www/app/nfl-family-picks.png) \
 </a>
 
-### Marine Vessels <span class="fa fa-ship"></span>
+### Marine Vessels <span class="fa fa-ship"></span> {.project-card}
 
 <a href="marine-vessels" target=_blank>
 ![Marine Vessels](www/app/marine-vessels.png) \

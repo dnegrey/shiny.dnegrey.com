@@ -2,7 +2,7 @@
 import Open Sans font from Google (closest to Verdana)
 */
 
-@import "https://fonts.googleapis.com/css2?family=Open+Sans";
+@import "https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap";
 
 /*
 global
@@ -98,14 +98,38 @@ sidebar
 home
 */
 
-#home .chart-title {
-    font-weight: bold;
+.project-card {
+    background-color: rgba(43, 62, 80, 0.3);
+    border-color: rgba(43, 62, 80, 0.1);
+    box-shadow: 0 2px 15px rgba(0,0,0,.15), 0 2px 6px rgba(0,0,0,.1);
+    transition: background-color 0.3s, box-shadow 0.3s;
 }
-#home .chart-title .fa {
+.project-card:hover {
+    background-color: rgba(43, 62, 80, 0.9);
+    box-shadow: 0 3px 30px rgba(0,0,0,.2), 0 3px 15px rgba(0,0,0,.25);
+}
+.project-card .chart-title {
+    font-weight: bold;
+    color: #2B3E50;
+    transition: color 0.3s;
+}
+.project-card .chart-title .fa {
     float: right;
 }
-#home img {
+.project-card:hover > .chart-title {
+    color: #5BC0DE;
+}
+.project-card .chart-stage {
+    padding: 40px 30px 40px 30px;
+    transition: padding 0.3s;
+}
+.project-card:hover > .chart-stage {
+    padding: 20px 15px 20px 15px;
+}
+.project-card img {
     max-width: 100%;
+    border-radius: 3px;
+    box-shadow: 0 3px 40px rgba(0,0,0,.2), 0 3px 10px rgba(0,0,0,.3);
 }
 .noshow {
     visibility: hidden;
