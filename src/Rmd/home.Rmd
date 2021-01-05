@@ -19,6 +19,10 @@ Row
 ![Marine Vessels](www/app/marine-vessels.png) \
 </a>
 
-### {.noshow}
+### Twitter Analysis <span class="fa fa-twitter"></span> {.project-card}
+
+<a href="blastpoint-twitter" target=_blank>
+![Twitter Analysis](www/app/blastpoint-twitter.png) \
+</a>
 
 
